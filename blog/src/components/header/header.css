@@ -1,0 +1,63 @@
+.header {
+  width: 100%;
+  position: relative;
+  z-index: 5;
+  /* Created with https://www.css-gradient.com */
+  background: rgba(167, 221, 98, 1);
+  background: -webkit-linear-gradient(
+    top right,
+    rgba(167, 221, 98, 1),
+    rgba(67, 162, 122, 1)
+  );
+  background: -moz-linear-gradient(
+    top right,
+    rgba(167, 221, 98, 1),
+    rgba(67, 162, 122, 1)
+  );
+  background: linear-gradient(
+    to bottom left,
+    rgba(167, 221, 98, 1),
+    rgba(67, 162, 122, 1)
+  );
+  height: 70vh;
+}
+.container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  height: 100%;
+  padding: 3rem;
+}
+.container p {
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+  transition: 0.5s ease;
+  margin: auto;
+  display: block;
+  border: 2px solid rgba(67, 162, 122, 1);
+  color: #fff;
+  background: transparent;
+}
+button:hover {
+  background: rgba(67, 162, 122, 1);
+  color: #fff;
+  border-radius: 5px;
+}
+.header-title {
+  padding-top: 2rem;
+  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #fff;
+}

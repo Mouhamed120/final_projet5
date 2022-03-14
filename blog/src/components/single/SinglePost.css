@@ -1,0 +1,41 @@
+.SinglePost {
+  flex: 9;
+}
+.singlePostTitleInput {
+  margin: 10px;
+  font-size: 28px;
+  text-align: center;
+  color: lightslategray;
+}
+.singlePostTitleInput:focus {
+  outline: none;
+  border: none;
+  color: lightslategray;
+  border-bottom: 1px solid lightslategray;
+}
+.singlePostWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.singlePostDescInput {
+  border: none;
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 1rem;
+}
+.singlePostDescInput:focus {
+  outline: 0.5px solid lightblue;
+  resize: none;
+}
+.singlePostBtn {
+  width: 100px;
+  border: none;
+  background: teal;
+  color: white;
+  border-radius: 5px;
+  margin-top: 0.6rem;
+  cursor: pointer;
+  align-self: flex-end;
+  padding: 5px;
+}

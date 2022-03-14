@@ -1,0 +1,81 @@
+.container-contact {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  padding: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+}
+.c-contact,
+.c-form {
+  flex: 3;
+}
+.c-googleMap {
+  flex: 6;
+}
+.c-title {
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  color: rgba(67, 162, 122, 1);
+}
+.c-icon {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 1.3rem;
+  border-radius: 50%;
+  margin-right: 0.3rem;
+  color: #fff;
+  background: rgba(67, 162, 122, 1);
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.info-contact {
+  display: flex;
+  align-items: center;
+}
+
+.c-input,
+.c-textarea {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  border-radius: 5px;
+  border: 1px solid #c0c0c0;
+}
+.c-input,
+.c-textarea:focus {
+  border: 1px solid rgba(67, 162, 122, 1);
+  outline: none;
+}
+.c-input,
+.c-textarea::placeholder {
+  color: rgba(67, 162, 122, 1);
+  font-size: 0.8rem;
+}
+.c-group {
+  margin-bottom: 1rem;
+}
+.c-textarea {
+  width: 100%;
+  resize: none;
+}
+@media (max-width: 678px) {
+  .container-contact {
+    background: #000;
+  }
+  .c-contact,
+  .c-googleMap,
+  .c-form {
+    flex: 1;
+    margin-bottom: 2rem;
+  }
+}

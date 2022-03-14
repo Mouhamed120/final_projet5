@@ -1,0 +1,56 @@
+.Register {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgb(51, 26, 26)),
+    url(../../../public/images/post1.jpg) no-repeat center center / cover;
+}
+.Register span {
+  font-size: 50px;
+}
+.RegisterForm {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.RegisterForm > label {
+  margin: 10px 0;
+  color: teal;
+  width: 160px;
+  text-align: center;
+  text-align: left;
+}
+
+.inputRegister {
+  padding: 10px;
+  background: white;
+  border: none;
+}
+.RegisterBtn {
+  margin-top: 20px;
+  cursor: pointer;
+  background: teal;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  align-self: center;
+  padding: 10px;
+  width: 200px;
+  align-self: center;
+}
+.RegisterRegisterBtn {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  background: lightcoral;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  color: white;
+  top: 30px;
+  border-radius: 10px;
+}
